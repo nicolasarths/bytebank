@@ -10,6 +10,7 @@ public class Manager extends Employee{
         return password.equals(this.password);
     }
 
+    @Override
     public double getBonus(){
         return super.getBonus() + 0.5;
     }
